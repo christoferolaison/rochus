@@ -3,6 +3,7 @@ function splitStyleProps({
   flex,
   alignItems,
   backgroundColor,
+  color,
   ...props,
 }) {
   return {
@@ -11,6 +12,7 @@ function splitStyleProps({
       flex,
       alignItems,
       backgroundColor,
+      color,
     },
     props,
   }

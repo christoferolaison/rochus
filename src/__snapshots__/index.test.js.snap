@@ -6,6 +6,7 @@ Object {
   "sx": Object {
     "alignItems": undefined,
     "backgroundColor": undefined,
+    "color": undefined,
     "display": "flex",
     "flex": undefined,
   },
@@ -20,6 +21,7 @@ Object {
   "sx": Object {
     "alignItems": "center",
     "backgroundColor": undefined,
+    "color": undefined,
     "display": undefined,
     "flex": undefined,
   },
