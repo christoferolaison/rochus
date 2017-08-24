@@ -6,6 +6,7 @@ export default ({
 	sx: {
 		display,
 		flex,
+
 	},
 	props,
 });
