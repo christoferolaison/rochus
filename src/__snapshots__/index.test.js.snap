@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return an empty props object and a sx object containing display key 1`] = `
+Object {
+  "props": Object {},
+  "sx": Object {
+    "alignItems": undefined,
+    "backgroundColor": undefined,
+    "display": "flex",
+    "flex": undefined,
+  },
+}
+`;
+
+exports[`should return an props object containing onClick and a sx object containing alignItems key 1`] = `
+Object {
+  "props": Object {
+    "onClick": [Function],
+  },
+  "sx": Object {
+    "alignItems": "center",
+    "backgroundColor": undefined,
+    "display": undefined,
+    "flex": undefined,
+  },
+}
+`;
