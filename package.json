@@ -1,0 +1,38 @@
+{
+  "name": "rochus",
+  "version": "1.0.0",
+  "description": "css-in-js utils",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d lib --ignore spec.js,test.js",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-3"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christoferolaison/rochus.git"
+  },
+  "keywords": [
+    "css-in-js"
+  ],
+  "author": "Christofer Olaison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christoferolaison/rochus/issues"
+  },
+  "homepage": "https://github.com/christoferolaison/rochus#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "jest": "^20.0.4",
+    "watch": "^1.0.2"
+  }
+}
