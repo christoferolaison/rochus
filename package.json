@@ -8,7 +8,7 @@
     "build": "babel src -d lib --ignore spec.js,test.js",
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "prepublish": "npm run test && npm run build",
+    "prepublish": "npm run build",
     "release": "np"
   },
   "babel": {
