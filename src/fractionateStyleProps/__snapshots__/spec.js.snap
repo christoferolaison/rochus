@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should return an empty props object and a sx object containing display key 1`] = `
+exports[`fractionateStyleProps should return an empty props object and a sx object containing display key 1`] = `
 Object {
   "props": Object {},
   "sx": Object {
@@ -406,7 +406,7 @@ Object {
 }
 `;
 
-exports[`should return an props object containing onClick and a sx object containing alignItems key 1`] = `
+exports[`fractionateStyleProps should return an props object containing onClick and a sx object containing alignItems key 1`] = `
 Object {
   "props": Object {
     "onClick": [Function],
